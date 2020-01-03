@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head>
+		
+		<title>David Barry Hill Photography</title><!-- Title of the website page page. -->
+		<link rel="stylesheet" href="../css/external.css"><!-- Link to external CSS sheet. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="tab icon" href="../images/logo.png" type="image/x-icon"> <!-- WEBTAB IMAGE -->
+		
+		<meta charset="UTF-8">
+				
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	<style>
+	
+	.indexnav{
+	background-color: #A9A9A9;
+	}
+	
+	.logo{
+	text-align: center;
+	}
+	
+	.footer{
+	text-align: left;
+	background-color: #A9A9A9;
+	padding: 2px;
+	}
+	
+	.column {
+	float: centre;
+	width: 40%;
+	padding: 5px;
+	border: 1px solid black;
+	}
+
+	.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	width: 40%;
+	float: centre;
+	}
+	
+	.container {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+
+	.row {
+	width: 100%;
+	max-width: 1500px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+
+	.twelvecolcol {
+	margin-right: 3.8%;
+	float: left;
+	min-height: 1px;
+	}
+	
+		.fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	}
+
+	.fa:hover {
+    opacity: 0.7;
+	}
+
+	.fa-facebook {
+	background: #3B5998;
+	color: white;
+	}
+	
+	.fa-linkedin {
+	background: #007bb5;
+	color: white;
+	}
+
+	.fa-youtube {
+	background: #bb0000;
+	color: white;
+	}
+
+	.fa-instagram {
+	background: #125688;
+	color: white;
+	}
+	
+	.fa-twitter {
+	background: #55ACEE;
+	color: white;
+	}
+
+	.sixcol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+	
+
+	
+	</style>
+	
+	<div class="masterdiv" style="max-width:1500px">	
+	
+	</head>
+	<body>
+			
+			<div class="logo">
+				<img src="../images/logo.png" alt="DBH Logo" />
+			</div>
+			
+			 <div class="indexnav">
+			 	 <ul>
+				<li><a href="../html/index.html">Home</a></li>
+				<li><a href="../html/about.html">About</a></li>
+				<li><a href="../html/portfolio.html">Portfolio</a></li>
+				<li><a href="../html/services.html">Services</a></li>
+				<li><a href="../html/contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			    <div class="container">
+	      <div class="row">
+	        <div class="twelvecol last">
+	          <h1 id="title1">Contact</h1>
+			  <div class="row">
+	        <div class="twelvecol last">
+	          <div id="contentWrap">
+      <div class="container1">
+        <div class="row">
+          <div class="sixcol">
+            <h2 class="liam">Contact DBH Photography</h2>
+              <div id="contactform">
+                <form id="Contact" onsubmit="submitAlert()" method="post" action="mailto:davidbarryhill@outlook.com">
+                  <div class="left">
+                    <label class="question">Full Name:</label><br />
+                    <input class="form" type="text" name="name" size="20" required="required" maxlength="30" /><br />
+                    <label class="question">Email Address:</label><br />
+                    <input class="form" type="text" name="email" size="20" required="required" maxlength="24"  /><br />
+                    <label class="question">Phone Number:</label><br />
+                    <input class="form" type="text" name="number" size="20" required="required" maxlength="10" /><br />
+                    <label class="question">Address:</label><br />
+                    <input type="text" name="address" size="20" required="required" /><br /><br />
+                    <label class="service">Select Your Service:</label>
+                    <select name="choice">
+                    <option value="InStudio">Indoor Studio Shoot</option>
+                    <option value="OutOfStudio">Outdoor Shoot</option>
+                    <option value="Video">Videography Shoot</option>
+                    </select><br />
+                  </div>
+                  <div id="comments">
+                    <div class="right">
+                      <label id="comment">Comments:<br />
+                      <textarea id="textarea" name="comment" maxlength="360" cols="40" rows="12"></textarea></label><br />
+                    </div>
+                  </div>
+                  <input id="submit" type="submit" value="Submit" />
+                </form>
+            </div>
+          </div>
+          <!-- MAP OF WHERE LIAM OPERATES -->
+          <div class="sixcol last">
+            <h2 class="liam">Find DBH Photography</h2>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.2536923373!2d-6.3857865069186515!3d53.3244430382563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1476181464720" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+			
+			
+			<div class="footer"><center>
+			   <p><center>Copyright &copy; David Barry Hill Photography</center></p>
+			   <a href="#" class="fa fa-facebook"></a>
+			   <a href="#" class="fa fa-twitter"></a>
+			   <a href="#" class="fa fa-linkedin"></a>
+			   <a href="#" class="fa fa-youtube"></a>
+			   <a href="#" class="fa fa-instagram"></a></center>
+			</div>
+			
+	</body>
+
+</html>
